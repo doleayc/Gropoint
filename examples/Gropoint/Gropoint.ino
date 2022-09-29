@@ -57,7 +57,7 @@ void setup()
 void loop()
 {
   // put your main code here, to run repeatedly:
-  float moisture[6];
+  float moisture[6]= {0,0,0,0,0,0};
   float temperature[7];
 
   debugSerial.println(F("Moisture: "));
